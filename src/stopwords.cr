@@ -15,7 +15,7 @@ class SnowballFilter
     terms - @stopwords
   end
 
-  def load_json : Array
+  private def load_json : Array
     stopwords = [] of String
     File.open(@json_file, "r") do |file|
       all_langs = JSON.parse(file)
