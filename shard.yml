@@ -1,0 +1,9 @@
+name: stopwords
+version: 0.1.0
+
+authors:
+  - Adam Drew <adam.drew@nimblestorage.com>
+
+crystal: 0.24.1
+
+license: MIT
